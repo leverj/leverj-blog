@@ -8,6 +8,12 @@
 	display:inline;
 }
 
+.image-caption{
+	text-align: center;
+	font-size: small;
+	font-weight: lighter;
+	font-style: italic;
+}
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax",
