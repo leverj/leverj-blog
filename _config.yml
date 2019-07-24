@@ -1,29 +1,29 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
+name: "LEVERJ"
+title: "Leverj"
+description: "The Non-custodial Leveraged Exchange."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
+baseurl: ''
 google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
+disqus: 'leverj'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  bharath:
+    name: bharath
+    display_name: Bharath Rao
+    gravatar: 632f1f3a5542ef31235ff44626848563
+    email: bharath@leverj.io
+    web: https://www.leverj.io
+    twitter: https://twitter.com/bharathrao
+    description: "Founder Leverj."
   john:
     name: John
-    display_name: John    
+    display_name: John
     avatar: 'assets/images/avatar.png'
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: wowthemesnet@gmail.com
@@ -38,7 +38,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
@@ -46,11 +46,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 
