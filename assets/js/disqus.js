@@ -1,4 +1,4 @@
-var disqus_shortname = '{{site.disqus}}';
+var disqus_shortname = $("#discus_short_name").html();
 var disqus_developer = 0;
 (function() {
   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
